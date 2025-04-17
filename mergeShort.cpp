@@ -71,5 +71,10 @@ void mergeShort(int low, int high) {
         cout << arr[i] << " ";
     }
 
+    cout << endl;
+}
+
+
+
     
     
