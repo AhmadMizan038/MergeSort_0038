@@ -30,3 +30,5 @@ void mergeShort(int low, int high) {
     if (low >= high) { //step1
         return;        // step1.a
     }
+    
+    int mid = (low + high)/2; //step2
