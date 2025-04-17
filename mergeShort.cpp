@@ -65,5 +65,11 @@ void mergeShort(int low, int high) {
             i++;                //step 4.f.ii
             k++;                //step 4.f.iii
         }
+
+        //step 5
+    for (int i = 0; i < n; i++ ) {
+        cout << arr[i] << " ";
+    }
+
     
     
