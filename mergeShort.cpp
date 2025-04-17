@@ -30,5 +30,10 @@ void mergeShort(int low, int high) {
     if (low >= high) { //step1
         return;        // step1.a
     }
-    
+
     int mid = (low + high)/2; //step2
+
+    //step 3
+    // fungsi rekursi - memanggil diri sendiri
+    mergeShort(low, mid);   //step 3.a
+    mergeShort(mid +  1, high); // step 3.b
